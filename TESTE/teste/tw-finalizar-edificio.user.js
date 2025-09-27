@@ -18,7 +18,7 @@
 // ==/UserScript==
 
 /*##############################################
-Lógica inicial baseada em “Os 5 primeiros dias – Modo Novato”
+Lógica inicial baseada em “Os 5 primeiros dias – Modo Novato”teamomayara
 https://forum.tribalwars.com.br/index.php?threads/os-5-primeiros-dias-modo-novato.334845/#post-3677800
 ##############################################*/
 
