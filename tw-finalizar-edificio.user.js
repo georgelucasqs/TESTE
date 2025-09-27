@@ -1,25 +1,18 @@
 // ==UserScript==
-// @name                FINALIZAR EDIFICIO
-// @namespace           AQUI É ABRAHAM CARAI
-// @icon
-// @website             https://tribalwarsbr100.wixsite.com/tw100
-// @email               tribalwarsbr100@gmail.com
-// @description 	    script construtor para game tribalwars, realiza upagem “Upar” dos edifícios do game, script realiza a atividade em formato inicial resolvendo as Quest do game, e após o término das Quest o script realiza upagem de acordo com perfil pré definido pelo autor do script. (mas pode ser modificado a alteração de como e feito a upagem, pelo próprio usuário.
-// @codigo              Conteudo feito em linguagem javascript com base em EcmaScript totalmente Opensource
-// @author		        Marcos v.s Marques
-// @include             https://br*.tribalwars.com.br/game.php*&village=*&screen=main
-// @include             https://br*.tribalwars.com.br/game.php?village=*&screen=main
-// @include             https://pt*.tribalwars.com.pt/game.php*&village=*&screen=main
-// @include             https://pt*.tribalwars.com.pt/game.php?village=*&screen=main
-// @include             https://**.tribalwars.*/game.php?**&screen=main#
-// @version     	    0.0.1
-// @supportURL          https://github.com/tribalwarsbr100/Upador-Tribal-Wars/issues
-// @grant               GM_getResourceText
-// @grant               GM_addStyle
-// @grant               GM_getValue
-// @grant               unsafeWindow
-// @intruções           https://docs.google.com/document/d/1jKXijn_H8QJjFJoVQEBpJ54w583P88OVV23czW3mFBo
-// @require             http://code.jquery.com/jquery-1.12.4.min.js
+// @name         FINALIZAR EDIFICIO
+// @namespace    tw.lucas
+// @version      0.0.2
+// @description  Upa edifícios automaticamente no TribalWars
+// @match        https://br*.tribalwars.com.br/game.php*screen=main*
+// @match        https://pt*.tribalwars.com.pt/game.php*screen=main*
+// @updateURL    https://raw.githubusercontent.com/georgelucasqs/TESTE/main/TESTE/teste/tw-finalizar-edificio.user.meta.js
+// @downloadURL  https://raw.githubusercontent.com/georgelucasqs/TESTE/main/TESTE/teste/tw-finalizar-edificio.user.js
+// @homepageURL  https://github.com/georgelucasqs/TESTE
+// @supportURL   https://github.com/georgelucasqs/TESTE/issues
+// @require      https://code.jquery.com/jquery-1.12.4.min.js
+// @grant        GM_getValue
+// @grant        GM_addStyle
+// @run-at       document-end
 // ==/UserScript==
 
 
